@@ -8,9 +8,9 @@ def main():
     operator = Operators()
     
     # Determine the number of candidate facilities
-    candidate_facility_number = 10 
+    candidate_facility_number = 15 
     # Set the number of points
-    point_amount = 50 
+    point_amount = 40 
     
     # Create coordinates of Facilities and Points
     facs_coordinates = operator.create_distance_matrix(candidate_facility_number, 2) 
@@ -33,7 +33,7 @@ def main():
     unassigned_points = []
 
     # Number of facilities to open
-    open_p_num_of_facs = 4
+    open_p_num_of_facs = 3
     
     total_distance = 0
     min_value = float('inf')

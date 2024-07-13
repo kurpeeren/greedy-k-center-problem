@@ -29,8 +29,11 @@ Bu nedenle, bu problem K-Merkez Problemi'nin tipik özelliklerini taşıdığı 
 
 ## Dosyalar
 
-- `k_merkez.py`: Açgözlü k-merkez algoritmasının uygulanmasını içerir.
-- `ornek.py`: Algoritmanın örnek verilerle nasıl kullanılacağını gösterir.
+- `Setup.py`: Proje yapılandırması ve bağımlılıkların yönetimini içerir.
+- `Point.py`: Nokta (müşteri) verilerinin tanımlandığı ve işlendiği sınıfları içerir.
+- `Operators.py`: K-merkez algoritmasının çeşitli işlemlerini ve operatörlerini içerir.
+- `Facility.py`: Tesis (merkez) verilerinin tanımlandığı ve işlendiği sınıfları içerir.
+- `LICENSE`: Projenin lisans bilgilerini içerir.
 - `README.md`: Proje açıklaması ve kullanım talimatlarını içerir.
 
 ## Lisans
