@@ -25,17 +25,17 @@ Bir örnek üzerinden algoritmanın nasıl çalıştığını inceleyelim:
 
 İstanbul'daki çeşitli semtlerdeki potansiyel şarj istasyonu yerleri ve elektrikli araç sahiplerinin konumları belirlenir. Müşterilerin konumları ve potansiyel tesislerin maliyetleri analiz edilir.
 
-![Veri Hazırlığı](./images/first-station.png)
-
 #### İlk Merkez Seçimi
 
 İlk tesis, en uzak müşteriye olan mesafeyi minimize edecek şekilde seçilir. Örneğin, Kadıköy'de bulunan bir müşteriye en yakın tesis Üsküdar'da olabilir.
 
-![İlk Merkez Seçimi](./images/graph.png)
+![Veri Hazırlığı](./images/first-station.png)
 
 #### Yeni Merkez Seçimi ve Müşteri Atamaları
 
 İkinci tesis, mevcut tesis (Üsküdar) sabit tutularak seçilir. Yeni tesis, örneğin Beşiktaş'ta olabilir. Tüm müşteriler, Üsküdar ve Beşiktaş tesisleri arasında en yakın olanına atanır.
+
+![İlk Merkez Seçimi](./images/graph.png)
 
 #### Performans Değerlendirmesi ve Son İyileştirmeler
 
