@@ -50,11 +50,8 @@ Similar steps are followed to select the third and fourth facilities, ensuring a
 
 This greedy algorithm provides a fast and effective solution to the K-Center Problem. By optimally placing a specified number of facilities, it enhances customer satisfaction and reduces logistical costs. EnerjiCo successfully used this algorithm to identify and establish the most efficient charging station locations in Istanbul, improving service delivery to electric vehicle owners.
 
----
-
 This technical explanation covers the operation of the greedy K-Center algorithm used by EnerjiCo to establish new charging stations in Istanbul and evaluates the outcomes achieved.
 
----
 ---
 
 # Sonuçlar
@@ -108,7 +105,5 @@ Bir örnek üzerinden algoritmanın nasıl çalıştığını inceleyelim:
 ### Sonuçların Değerlendirilmesi
 
 Bu açgözlü algoritma, K-Merkez Problemi için hızlı ve etkili bir çözüm sunar. Algoritmanın performansı, belirli sayıda tesisin optimal konumlandırılmasını sağlayarak müşteri memnuniyetini artırır ve lojistik maliyetleri düşürür. EnerjiCo, bu algoritmayı kullanarak İstanbul'da en verimli şarj istasyonu yerlerini belirleyip kurmuş ve elektrikli araç sahiplerine daha iyi hizmet sunmuştur.
-
----
 
 Bu teknik açıklama, EnerjiCo'nun İstanbul'da yeni şarj istasyonları kurma sürecinde kullandığı açgözlü K-Merkez algoritmasının nasıl çalıştığını ve elde edilen sonuçların değerlendirilmesini kapsamaktadır.
