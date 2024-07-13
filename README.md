@@ -1,3 +1,55 @@
+# Facility Location Problem - EnerjiCo
+
+## Problem Statement
+
+EnerjiCo is an energy company aiming to open a specified number of electric vehicle charging stations around Istanbul. The company engineers have identified various candidate locations for stations and customer locations, but they are hesitant to make long-term decisions on their own. At this point, you have decided to follow the steps below to develop a well-performing heuristic method.
+
+## Algorithm: Greedy Algorithm for K-Center Problem
+
+1. **Initialization:** Determine the optimal initial location for the first station using the total count.
+2. **Have we identified (opened) K centers yet?** If not:
+   - Keep the locations of open centers fixed and place the next center in the optimal position (using the total numbering).
+   - Customers are reassigned among open facilities.
+3. These steps continue until all K centers are opened.
+
+## Questions and Answers
+
+### 1. What type of Facility Location problem is this? Why?
+
+This is a **K-Center Problem**, a type of Facility Location problem.
+
+**Why?**
+
+- **Customer Distances:** EnerjiCo has long-term contracts with each customer, making customer data decisive, and aiming to minimize the distance to the nearest station for each customer.
+- **Specified Number of Facilities:** The company plans to open a specified number of charging stations around Istanbul, indicating a specific (K) number of facilities to be placed.
+- **Performance:** Using a greedy algorithm to determine the locations of centers by selecting the current optimal location and updating customer assignments using total numbering at each step.
+
+Therefore, this problem can be classified as a Facility Location problem typical of the K-Center Problem due to these characteristics.
+
+## Files
+
+- `Setup.py`: Includes project configuration and manages dependencies.
+- `Point.py`: Contains classes for defining and processing point (customer) data.
+- `Operators.py`: Includes various operations and operators for the K-center algorithm.
+- `Facility.py`: Contains classes for defining and processing facility (center) data.
+- `LICENSE`: Contains licensing information for the project.
+- `README.md`: Includes project description and usage instructions.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please submit a Pull Request.
+
+## Contact
+
+For any questions or suggestions, please open an issue or contact me at kurpeeren@gmail.com.
+
+
+---
+
 # Tesis Yerleşimi Problemi - EnerjiCo
 
 ## Problem Tanımı
