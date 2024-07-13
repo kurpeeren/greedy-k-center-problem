@@ -23,7 +23,12 @@ Bir örnek üzerinden algoritmanın nasıl çalıştığını inceleyelim:
 
 #### Veri Hazırlığı
 
-İstanbul'daki çeşitli semtlerdeki potansiyel şarj istasyonu yerleri ve elektrikli araç sahiplerinin konumları belirlenir. Müşterilerin konumları ve potansiyel tesislerin maliyetleri analiz edilir.
+İstanbul'daki çeşitli semtlerde potansiyel şarj istasyonu yerleri belirlenmiştir. Elektrikli araç sahiplerinin konumları ve bu konumlardan potansiyel istasyon yerlerine olan mesafeler analiz edilmiştir.
+
+- **Siyah Üçgenler:** Açılabilecek olan şarj istasyonu yerlerini temsil eder.
+- **Renkli Üçgenler:** Açılmış olan istasyonları ve hangi renge hizmet verdiklerini gösterir.
+- **Renkli Noktalar:** Her bir renkli istasyona bağlı müşterileri gösterir.
+- **Gri Noktalar:** Hizmet alamayan müşterileri temsil eder.
 
 #### İlk Merkez Seçimi
 
